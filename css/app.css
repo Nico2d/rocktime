@@ -1,0 +1,113 @@
+body {
+  background: black;
+}
+div.content-box {
+  background-color: rgba(238, 238, 238, 0.75);
+  margin-top: 110px;
+  margin-bottom: 100px;
+  padding: 30px;
+  border-radius: 10px;
+  text-align: justify;
+}
+div.content-box.background-1 {
+  background-color: #eeeeee;
+}
+div.container-fluid,
+div.carousel-inner,
+div.carousel-item {
+  min-height: 100vh;
+}
+div.container-fluid.d-flex {
+  padding-left: 0;
+  padding-right: 0;
+}
+div.content-box-container {
+  display: flex;
+  width: 100%;
+}
+div.carousel-item,
+div.content-box-container {
+  background-attachment: fixed;
+  background-size: cover;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+div.carousel-item h1,
+div.content-box-container h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+div.carousel-item.active,
+div.content-box-container.active,
+div.carousel-item.carousel-item-next,
+div.content-box-container.carousel-item-next,
+div.carousel-item.carousel-item-prev,
+div.content-box-container.carousel-item-prev {
+  display: flex;
+}
+a.carousel-control-next,
+a.carousel-control-prev {
+  position: fixed;
+}
+a.navbar-brand img {
+  height: 80px;
+}
+div.footer-row img {
+  height: 30px;
+  margin: 5px;
+  margin-top: 0;
+}
+.strike {
+  display: block;
+  text-align: center;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.strike > span {
+  position: relative;
+  display: inline-block;
+  padding: 10px;
+  color: gray;
+}
+.strike > span:before,
+.strike > span:after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  width: 9999px;
+  height: 1px;
+  background: gray;
+}
+.strike > span:before {
+  right: 100%;
+}
+.strike > span:after {
+  left: 100%;
+}
+.strike-compact {
+  display: block;
+  text-align: center;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.strike-compact > span {
+  position: relative;
+  display: inline-block;
+  padding: 5px;
+  color: #ebebeb;
+}
+.strike-compact > span:before,
+.strike-compact > span:after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  width: 9999px;
+  height: 1px;
+  background: #ebebeb;
+}
+.strike-compact > span:before {
+  right: 100%;
+}
+.strike-compact > span:after {
+  left: 100%;
+}
